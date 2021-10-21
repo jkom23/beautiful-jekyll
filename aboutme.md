@@ -1,16 +1,13 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello! My name is Jack Komaroff and I am a junior at Horace Mann. I am currently taking Feingold's Art of Data course and will be sharing my progress through this website. Thanks for taking a look at my code!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### My Coding Journey
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I started coding in 4th grade and began with **HTML**.
+I then started working with **Java** in Mr. Lee's CS2 course and we briefly started **Python**.
+Over the summer of 9th grade I learned **C** and **Arduino** code during an Internet of Things and Connected Devices course at NYU Tisch School of Engineering.
+This year is my formal introduction to **Python** and I am loving the coding language and the Art of Data course. 
