@@ -1,4 +1,12 @@
-## Blog for Digimon Lab
+---
+layout: post
+title: Digimon Lab Blog
+subtitle: Reading Files and CSVs
+cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/AbVzjMlr.jpg
+tags: [labs, python]
+---
 
 Jack Komaroff
 Feingold

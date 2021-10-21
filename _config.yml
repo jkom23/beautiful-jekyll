@@ -39,22 +39,16 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "jackkomaroff23@gmail.com"
+  telephone: +16465303497
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
+  facebook: Jack Komaroff
+  instagram: jkom23
+  twitter: jkom23
+  youtube: c/AwesomenessHQ
+  github: jkom23
+  linkedin: Jack Komaroff
+  
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -66,7 +60,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I am not a robot. Of course, an AI could have wrote this program so...
 
 # --- General options --- #
 
@@ -254,5 +248,4 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-
-theme: jekyll-theme-hacker
+theme: just-the-docs
