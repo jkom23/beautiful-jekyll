@@ -3,7 +3,6 @@ layout: post
 title: Digimon Lab Blog
 subtitle: Reading Files and CSVs
 cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
-thumbnail-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
 ---
 
@@ -23,7 +22,13 @@ My method *avgSpeed()* returns 120.40160642570281.
 
 **2. Write a function that can count the number of Digimon with a specific attribute. For example, count_digimon("Type", "Vaccine") would return 70.**
 
-My method *countDigimon()* will return the number of digimon with the a specific characteristic value. For example, *countDigimon()* with parameters *Attribute* and *Fire* will return 33.
+My method *countDigimon()* will return the number of digimon with the a specific characteristic value. For example, *countDigimon()* with parameters *Attribute* and *Fire* will return 33. I employed the following code to check if a certain digimon had the desired specific characteristic:
+
+```py
+for i in data:
+            if i[characteristic]==value:
+                counter+=1
+```
 
 **3. The Digimon on your team are restricted by the total amount of Memory that they need. If your team only has 15 Memory, name a team of up to 3 Digimon that has at least 300attack (Atk) in total.**
 
