@@ -2,6 +2,7 @@
 layout: post
 title: Digimon Lab Blog
 subtitle: Reading Files and CSVs
+cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 thumbnail-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
 ---
@@ -18,15 +19,15 @@ E Period
 
 **1. What is the average speed (Spd) of all Digimon?**
 
-My method *avgSpeed* returns 120.40160642570281. 
+My method *avgSpeed()* returns 120.40160642570281. 
 
 **2. Write a function that can count the number of Digimon with a specific attribute. For example, count_digimon("Type", "Vaccine") would return 70.**
 
-My method *countDigimon* will return the number of digimon with the a specific characteristic value. For example, *countDigimon* with parameters *Attribute* and *Fire* will return 33.
+My method *countDigimon()* will return the number of digimon with the a specific characteristic value. For example, *countDigimon()* with parameters *Attribute* and *Fire* will return 33.
 
 **3. The Digimon on your team are restricted by the total amount of Memory that they need. If your team only has 15 Memory, name a team of up to 3 Digimon that has at least 300attack (Atk) in total.**
 
-My method *findDigimonTeam*, will return a dictionary that describes a team of digimon that has a user-set minimum attack power, a user-set maximum digimon per team, and a user-set maximum total memory.
+My method *findDigimonTeam()*, will return a dictionary that describes a team of digimon that has a user-set minimum attack power, a user-set maximum digimon per team, and a user-set maximum total memory.
 
 For the restrictions described in the lab instructions (a minimum attack power of 300, a maximum of 3 digimon on a team, and a maximum memory of 15), my method returned the following digimon team:
 
@@ -44,7 +45,7 @@ I also utilized a few counters in my methods and those helped to keep track of i
 
 ## What Didn't Work
 
-Initially, I was not able to get my *findDigimonTeam* method to create a new nested dictionary with name Teammate #n. I had to tinker with this until I realized that I was adding a string to an int, and I needed to convert the digimon number to a string in order to add it to the dictionary name. 
+Initially, I was not able to get my *findDigimonTeam()* method to create a new nested dictionary with name Teammate #n. I had to tinker with this until I realized that I was adding a string to an int, and I needed to convert the digimon number to a string in order to add it to the dictionary name. 
 
 ## Improvements for Next Lab
 
