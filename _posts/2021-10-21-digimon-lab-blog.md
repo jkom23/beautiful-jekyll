@@ -14,7 +14,7 @@ E Period
 
 ## Lab Questions
 
-**To see my code and the methods to solve all of these questions, please view *digimon.py*. The file will be attached in the assigment page for this lab on Google Classroom**
+**To see my code and the methods to solve all of these questions, please view *digimon.py*. The file will be attached in the assignment page for this lab on Google Classroom and is linked [here](https://github.com/jkom23/SandboxAoD/blob/main/CS%20Labs/digimon.py)**
 
 **1. What is the average speed (Spd) of all Digimon?**
 
