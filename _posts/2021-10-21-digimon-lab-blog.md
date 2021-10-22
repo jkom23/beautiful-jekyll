@@ -20,6 +20,18 @@ E Period
 
 My method *avgSpeed()* returns 120.40160642570281. 
 
+This method iterates through every digimon and adds that digimon's speed to a total. 
+At the end, we divide this total  by the number of digimon counted to get the average speed. 
+
+This is the basis for how I found the total speed of every digimon and found how many digimon were counted:
+```py
+for i in data:
+            i[12]=int(i[12])
+            #turns data into ints so we can average
+            numDigimon+=1
+            speedDigimon+=i[12]
+    return (speedDigimon/numDigimon)
+```
 **2. Write a function that can count the number of Digimon with a specific attribute. For example, count_digimon("Type", "Vaccine") would return 70.**
 
 My method *countDigimon()* will return the number of digimon with the a specific characteristic value. For example, *countDigimon()* with parameters *Attribute* and *Fire* will return 33. I employed the following code to check if a certain digimon had the desired specific characteristic:
@@ -30,13 +42,27 @@ for i in data:
                 counter+=1
 ```
 
-**3. The Digimon on your team are restricted by the total amount of Memory that they need. If your team only has 15 Memory, name a team of up to 3 Digimon that has at least 300attack (Atk) in total.**
+**3. The Digimon on your team are restricted by the total amount of Memory that they need. If your team only has 15 Memory, name a team of up to 3 Digimon that has at least 300 attack (Atk) in total.**
 
 My method *findDigimonTeam()*, will return a dictionary that describes a team of digimon that has a user-set minimum attack power, a user-set maximum digimon per team, and a user-set maximum total memory.
 
+After properly storing our inputs, we can use the following code to assemble our digimon team and add it to the dictionary:
+```py
+for i in data:
+    #make our data ints
+    i[9]=int(i[9])
+    i[5]=int(i[5])
+    #if the specific digimon has sufficient attack power, not too much memory, and we haven't filled a team roster yet
+    if (i[9] >= atkPerDigimon) and (i[5]<=memPerDigimom) and (numDigimon<=(desiredNumDigimon-1)):
+        numDigimon+=1
+        totalAttackPower+=i[9]
+        totalMemoryUsed+=i[5]
+        myTeam["Teammate #"+str(numDigimon)]={"Digimon": i[1], "ID": i[0], "Attack Power":i[9], "Memory":i[5]}
+```
 For the restrictions described in the lab instructions (a minimum attack power of 300, a maximum of 3 digimon on a team, and a maximum memory of 15), my method returned the following digimon team:
-
+```py
 {'Total Attack Power': 324, 'Total Memory': 9, 'Number of Digimon on Team': 3, 'Teammate #1': {'Digimon': 'Koromon', 'ID': '6', 'Attack Power': 109, 'Memory': 3}, 'Teammate #2': {'Digimon': 'Tsunomon', 'ID': '8', 'Attack Power': 107, 'Memory': 3}, 'Teammate #3': {'Digimon': 'Tsumemon', 'ID': '9', 'Attack Power': 108, 'Memory': 3}}
+```
 
 ## References
 
