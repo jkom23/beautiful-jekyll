@@ -6,7 +6,7 @@ cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
 author: Jack Komaroff
 ---
-
+**By Jack Komaroff**
 
 ## My Code
 The following is my *digimon.py* file which contains the methods that I used to answer the lab questions.
