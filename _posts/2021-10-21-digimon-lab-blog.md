@@ -6,12 +6,14 @@ cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
 ---
 
-Jack Komaroff
-Feingold
-Art of Data 2021-2022
-E Period
-10/20/21
-##
+## Jack Komaroff
+## Feingold
+## Art of Data 2021-2022
+## E Period
+## 10/20/21
+
+
+## My Code
 The following is my *digimon.py* file which contains the methods that I used to answer the lab questions.
 
 ```py
@@ -137,6 +139,8 @@ For the restrictions described in the lab instructions (a minimum attack power o
 {'Total Attack Power': 324, 'Total Memory': 9, 'Number of Digimon on Team': 3, 'Teammate #1': {'Digimon': 'Koromon', 'ID': '6', 'Attack Power': 109, 'Memory': 3}, 'Teammate #2': {'Digimon': 'Tsunomon', 'ID': '8', 'Attack Power': 107, 'Memory': 3}, 'Teammate #3': {'Digimon': 'Tsumemon', 'ID': '9', 'Attack Power': 108, 'Memory': 3}}
 ```
 
+Obviously there are dozens of other acceptable team rosters, the above roster is just one combination that fulfills the lab requirements.
+
 ## References
 
 I did not work with anyone to complete this lab and I did not use any internet sources.
@@ -158,3 +162,5 @@ Next lab I think I should start with psuedocode instead of jumping straight into
 ## What I Learned
 
 I learned about including more places for user input instead of hard-coding all the inputs to exactly meet the lab specifications. This way the code is more usable to users with a variety of different goals. For example, if there was a special digimon game mode where up to 9 digimon were allowed, the user could easily use my code by simply inputting a 9 instead of a 3 in the *desiredNumDigimon* parameter. This is a very useful aspect in creating method which allows them to be better utilized a wider variety of circumstances. 
+
+Additionally, I learned about practical applications of reading CSVs. The same methods in *digimon.py* could be easily applied to sorting foods (based on calories, size, price, etc.) or even ranking stock choices (based on share price, analyst rankings, company debt, etc.)
