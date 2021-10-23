@@ -4,13 +4,8 @@ title: Digimon Lab Blog
 subtitle: Reading Files and CSVs
 cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
+author: Jack Komaroff
 ---
-
-## Jack Komaroff
-## Feingold
-## Art of Data 2021-2022
-## E Period
-## 10/20/21
 
 
 ## My Code
