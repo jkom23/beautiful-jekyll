@@ -2,7 +2,7 @@
 layout: post
 title: Research Meta Analysis
 subtitle: Calculating Noise Levels with Free iOS Software
-cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
+cover-img: /assets/img/cell-phone.jpg
 tags: [report, data]
 author: Jack Komaroff
 ---
