@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digimon Lab Blog
+title: Digimon Lab
 subtitle: Reading Files and CSVs
 cover-img: /assets/img/Digimon_Adventure_2020_episode_6.jpg
 tags: [labs, python]
