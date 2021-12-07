@@ -16,7 +16,7 @@ The following is my *animalcrossing.py* file which contains the methods that I u
 from pip._vendor import requests
 import csv
 BASE_URL="https://hm-cs.herokuapp.com"
-ENDPOINT="/sockOptions"
+ENDPOINT="/socks"
 API_KEY = "ArtOfDataKEY123"
 #payload setup and imports
 
@@ -91,7 +91,13 @@ def sockColorOptions():
         print(colorOptions)
 
 
+
+
+
+#only run this function once
 generateCSV()
+
+#then run these functions
 sockTypeVariations()
 sockColorOptions()
 
