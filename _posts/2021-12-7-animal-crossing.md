@@ -115,7 +115,7 @@ For sock color, we repeat a similar process of iterating through a csv and addin
 
 ## Lab Reflection
  
-At first this lab confused me because I wasn’t sure how to utilize the API to get the requests. Thankfully the csv part of the lab was simple enough because it was very similar to the penguin lab. Once I figured out the API part with Feingold’s help, I was on my way to properly cloth myself in socks for my trip to my Animal Crossing island! 
+At first this lab confused me because I wasn’t sure how to utilize the API to get the requests. Thankfully the csv part of the lab was simple enough because it was very similar to the penguin lab. Once I figured out the API part with Feingold’s help, I was able to clothe myself in socks for my trip to my Animal Crossing island! 
 
 There was some initial difficulty with response.json() versus response.text, but once I got that sorted out I could begin to write data that I received from the API into a csv. I also had experimented with making a Sock class, but realized that this was unnecessary because I could just get all of the information and tweak my csv code to only utilize sock name, color1, and color2.  The maximum number of variations was probably the hardest idea conceptually and I worked with Mikail on that to figure out how a variable like that would work. Once created, it allows us to simply see which sock types have that max variation value and include only those sock types in the desired list that we output. 
 
