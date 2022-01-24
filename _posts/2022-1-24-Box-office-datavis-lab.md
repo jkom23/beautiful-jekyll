@@ -2,7 +2,7 @@
 layout: post
 title: Box Office Data Visualization Lab
 subtitle: Free POPCORN if you read my lab!
-cover-img: /assets/img/animalCross.jpg
+cover-img: /assets/img/films.jpg
 tags: [labs, data]
 author: Jack Komaroff
 ---
