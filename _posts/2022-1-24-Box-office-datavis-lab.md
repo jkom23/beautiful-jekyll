@@ -59,6 +59,18 @@ For the final dataset, I looked at the highest grossing films of each year (for 
 With more of these megahits coming out every year, the time between bumps is decreasing, and the graph is trending upwards. 
 With this dataset, I also wanted to look at where most of the top performing films (that are usually PG-13) fit in terms of box office revenue. For this question, I used a box plot to determine that IQR for these high performing PG-13 films was around $450,000,00 to $700,000,000. This number is a great benchmark for determining if a year was generally good for the box office. 
 [BO of the top grossing films - Box Plot](https://drive.google.com/file/d/1yQW-6sM9UEEBsPB7YGjoRpXjj3Tjwxmf/view?usp=sharing/)
+Looking at this datset more closely, we see these summary statistics. 
+|       |        YEAR | TOTAL IN 2019 DOLLARS (in 100 millions)|
+|------:|------------:|----------------------------------------:|
+| count |   27.000000 |                            2.700000|
+|  mean | 2008.000000 |                            5.537170|
+|   std |    7.937254 |                            1.699856|
+|   min | 1995.000000 |                            2.044178|
+|   25% | 2001.500000 |                            4.544314|
+|   50% | 2008.000000 |                            5.160503|
+|   75% | 2014.500000 |                            6.641301|
+|   max | 2021.000000 |                            8.658428|
+The year column is obviously not important, but we see that the mean of these top grossing films is 5.54 hundred million dollars and the standard deviation is 1.70 hundred million.  This is the same data that we would see in the box plot, but it is illustrated very clearly in the table (instead of the general conclusions that the box plot provides).
 
 For 2021, up until December, Shang-Chi was the leader of the domestic box office with around $225,000,000. This number is outside of the IQR for the highest performing film of the year, therefore demonstrating the poor state of the box office during the pandemic. However, when Spider-Man: No Way Home released in December, it became the highest grossing film of 2021 with around $720,000,000 (and counting). This is slightly above the IQR that we just calculated and this shows that the box office is back on track for 2022 and healthy compared to the past years’ data. 
 The largest limitation of this analysis is my inexperience with seaborn and data visualization overall. We have just started learning to use this program so a lot of the more advanced analytical data tools are not yet known to me. With more practice with this software, I'm sure I could overlay lines, apply best fit curves, and other important features that could improve the quality of my data analysis. 
