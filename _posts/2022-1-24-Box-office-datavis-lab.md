@@ -60,6 +60,7 @@ With more of these megahits coming out every year, the time between bumps is dec
 With this dataset, I also wanted to look at where most of the top performing films (that are usually PG-13) fit in terms of box office revenue. For this question, I used a box plot to determine that IQR for these high performing PG-13 films was around $450,000,00 to $700,000,000. This number is a great benchmark for determining if a year was generally good for the box office. 
 [BO of the top grossing films - Box Plot](https://drive.google.com/file/d/1yQW-6sM9UEEBsPB7YGjoRpXjj3Tjwxmf/view?usp=sharing/)
 Looking at this datset more closely, we see these summary statistics. 
+
 |       |        YEAR | TOTAL IN 2019 DOLLARS (in 100 millions)|
 |------:|------------:|----------------------------------------:|
 | count |   27.000000 |                            2.700000|
