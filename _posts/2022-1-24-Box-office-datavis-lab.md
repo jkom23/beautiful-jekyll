@@ -59,8 +59,8 @@ For the final dataset, I looked at the highest grossing films of each year (for 
 With more of these megahits coming out every year, the time between bumps is decreasing, and the graph is trending upwards. 
 With this dataset, I also wanted to look at where most of the top performing films (that are usually PG-13) fit in terms of box office revenue. For this question, I used a box plot to determine that IQR for these high performing PG-13 films was around $450,000,00 to $700,000,000. This number is a great benchmark for determining if a year was generally good for the box office. 
 
-![BO of the top grossing films - Box Plot](https://github.com/jkom23/websiteAoD/blob/master/assets/img/boxplot.png?raw=true)
-![[BO of the top grossing films - Box Plot2]]({{site.baseurl}}/assets/img/boxplot.png)
+<!---![BO of the top grossing films - Box Plot](https://github.com/jkom23/websiteAoD/blob/master/assets/img/boxplot.png?raw=true)-->
+<!---![[BO of the top grossing films - Box Plot2]]({{site.baseurl}}/assets/img/boxplot.png)-->
 
 Looking at this datset more closely, we see these summary statistics. 
 
