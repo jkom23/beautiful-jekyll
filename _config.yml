@@ -243,3 +243,6 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+url: https://jkom23.github.io
+baseurl: /websiteAoD
